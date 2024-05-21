@@ -83,9 +83,9 @@
                 ) {
                     e.options.data.forEach(function (link) {
 
-                        if (link[0] === '首頁') {
-                            nodes['首頁'] = {
-                                id: '首頁',
+                        if (link[0] === '手機平台') {
+                            nodes['手機平台'] = {
+                                id: '手機平台',
                                 marker: {
                                     radius: 80
                                 }
@@ -151,9 +151,10 @@
                 },
                 id: 'lang-tree',
                 data: [
-                    ['首頁', '子頁面'],
-                    ['子頁面', 'sony'],
+                    ['手機平台', '首頁'],
+                    ['手機平台', '子頁面'],
                     ['子頁面', 'iphone'],
+                    ['子頁面', 'sony'],
                     ['子頁面', 'samsung']
                 ]
             }]
